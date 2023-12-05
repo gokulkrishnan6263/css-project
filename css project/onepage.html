@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>css project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+      *{
+          font-family: sans-serif;
+      }
+      .onepage{
+          font-size: 30px;
+          color: black;
+          margin-right:330px;
+          padding-top: 30px;
+          padding-right: 8px;
+          margin-left:30px;
+      }
+      .nav{
+          font-size: 16px;
+          color: black;
+          padding-right:20px ;
+      }
+      li{
+          display: inline-block;
+      }
+      .getstarted{
+          background-color: #2487ce;
+          color: white;
+          padding: 13px;
+          border-radius: 4px;
+      }
+      .nav:hover{
+          color: brown;
+          text-decoration: none;
+      }
+      .onepage:hover{
+          color: brown;
+          text-decoration: none;
+          text-align: center;
+      }
+      .pre1{
+          text-align: center;
+          font-size: 48px;
+          color:#396084;
+          font-weight:900;
+      }
+      .pre2{
+          text-align: center;
+          font-size: 20px;
+          color: black;
+      }
+      .div2{
+          text-align: center;
+      }
+      .pre3{
+          background-color: #2487ce;
+          color: white;
+          display: inline-block;
+          padding: 10px 30px;
+          border-radius: 4px;
+          border: none;
+          margin-top: 9px;
+          font-size: 14px;
+      }
+      i{
+          margin-top: 4px;
+      }
+      .bg{
+          margin-top:40px;
+          padding-left:80px;
+      }
+      .box{
+          display: inline-block;
+          width: 20%;
+          box-shadow: 2px 2px 10px grey; 
+          border-radius: 8px;
+          height: 270px;
+          padding: 10px;
+          margin-left: 35px;  
+      }
+      .icon{
+          color:skyblue;
+          font-size:30px;
+          margin:25px 0 0 15px;
+      }
+      .head{
+          color:#124265;
+          font-weight: bolder;
+          font-size: 18px;
+          margin:25px 0 0 15px;
+      }
+      .para{
+          font-size: 16px;
+          text-align: justify;
+          margin:25px 0 0 15px;
+      }  
+      .abtpara{
+          margin-top: 60px;
+          text-align: center;
+          }
+        .abtpara h4{
+            font-weight: bolder;
+            color: #124265;
+        }
+        .abtpara p{
+            color: #919191;
+            font-size: 14px;
+            text-align: center; 
+        }
+        .abtpara2{
+            font-size: 13px; 
+            margin-left: 200px;
+            line-height: 20px;
+        }
+        .bx{
+            color: skyblue;
+            font-size: 30px;
+        }
+        .abtpara3{
+           font-size: 13px;
+           margin-left:700px;
+           position:absolute;
+           top:123%;
+        }
+        #learnmore{
+            display: inline-block;
+            font-size:13px; 
+            margin-left: 730px;
+            position: absolute;
+            top:141%;
+            color: rgb(9, 109, 184);
+            border: 2px solid rgb(9, 109, 184);
+            border-radius: 3px;
+            padding: 15px 40px;  
+        } 
+        .bgnumber{
+            margin-top:60px;  
+            height: 180px; 
+            background-color: #f8fbfe;           
+        }
+        .numpara{
+           float:left;
+           margin-left:195px;
+           margin-top: 40px;
+        }
+        .numpara h1{
+           text-align: center;
+           color: #124265;
+           font-weight: bolder;
+           font-size: 48px;
+        }
+        .numpara p{
+            text-align: center;
+            color: #1e6ca6;
+            font-size: 14px;            
+        }
+        .bgvideo{
+            margin-top:90px;
+            line-height: 20px;
+        }
+        .video{
+            float: left;
+            margin-left:150px;
+        }
+        .videopara{
+            font-size: 24px;
+            position: relative;
+            font-weight: bold;
+            margin-left:710px;
+            line-height: 25px;
+        }
+        .videopara1{
+            font-size:16px;
+            position: relative;
+            color: #000000;
+            margin-left:710px;
+        }
+        .videopara2{
+            font-size: 13px;
+            position: relative;
+            color: #000000; 
+            margin-left:710px;
+        }
+        .videopara3{
+            font-size: 13px;
+            position: relative;
+            color: #000000;
+        }
+        .videopara2 .bx{    
+            font-size:20px;
+            color: skyblue;
+            line-height:1px;
+        }
+        .logo{
+            width:100%;
+            margin:100px 0 0 0;
+            height:100px;
+            display:inline-block;
+            background-color:#f8fbfe;
+        }
+         img{
+           width:6%;
+           position: relative;
+           top:27px;
+           margin-left:110px;    
+        }
+        .bgtesti{
+            margin-top: 100px;
+        }
+        .testhp{
+            text-align: center;
+        }
+        .testhp h3{
+            color: #124265;
+            font-weight: bolder;
+        }
+        .testhp p{
+            color:#919191;
+            font-size: 14px;
+            width:85%;
+            margin-left:100px;
+        }
+       .card{
+            background-color:#f3f9fd;
+            width: 22%;
+            float: left;
+            height: 180px;
+            position: relative;
+            left: 8%;
+            margin-left:45px;
+         
+        }
+        .card .bx{
+            font-size: 20px;
+            font-weight: 900;
+            margin: 0 5px 0 3px;
+        }
+        .card p{
+            color:#444444;
+            font-size: 16px;
+            font-style: italic;   
+            padding:15px 10px 10px 15px;
+            font-family: sans-serif;
+        }
+        .imagestaff{
+            margin-top:220px;
+        }
+        .image1 img {
+            margin-bottom: 40px;
+            margin-left: 245px;
+            border-radius:80%;
+            width: 100px;
+        }
+        .desgination{
+            float:left;
+            margin-left:238px;
+            text-align:center; 
+        }
+        .desgination h5{
+            color: #111111;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .desgination p{
+            color: #999999;
+            font-size: 14px;
+        }
+        #radio{            
+          margin-top:75px;
+          margin-left:630px;
+          word-spacing:5px;
+        }
+        .bgservice{
+            background-color:#f3f9fd;
+            padding-top: 20px;
+            margin-top: 80px;
+            height:910px;
+        }
+        .servhp{
+            text-align: center;
+            
+        }
+        .servhp h2{
+            color: #124265;
+            font-weight: bold;
+            margin-top:50px;
+        }
+        .servhp p{
+            font-size:14px;
+            color:#919191;
+            width:80%;
+            margin:20px 0 0 140px;
+        }
+        .servcard{
+            width:25%;
+            display: inline-block;
+            box-shadow:1px 1px 3px slategrey;
+            background-color:rgba(255, 255, 255, 1);
+            margin: 30px 0 0 25px;
+            height:50vh;
+            border-radius: 3px;
+            position: relative;
+            left: 8.5%;
+        }
+        .sicon{
+            padding: 100px 50px 20px 140px;
+        }
+        .shead{
+            text-align: center;
+            padding-top:5px;    
+            color: #124265;
+        }
+        .spara{
+            font-size:14px;
+            padding-top:0 20px 0 20px;
+            margin:10px 10px 0 20px;
+            color: #444444;
+            text-align: center;
+            width:90%;
+        }
+        .servcard .bx{
+            font-size: 40px;
+        }
+        .bx1{
+            color: skyblue;
+        }
+        .bx2{
+            color: orange;
+        }
+        .bx3{
+            color: violet;
+        }
+        .bx4{
+            color:yellow;
+        }
+        .bx5{
+            color: orangered;
+        }
+        .bx6{
+            color: yellowgreen;
+        }
+        .bgaction{
+            background-color: #2487ce;
+            height:40vh;
+            margin-left:10px;
+        }
+        .bgaction:hover{
+            background-color: orange;
+        }
+        .action h2{
+            color: white;
+            font-size:24px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 70px;
+        }
+        .action .calp{
+            color: white;
+            font-size: 16px;
+            text-align: center;
+            padding: 5px 100px 0 100px;
+            letter-spacing: 1px;
+            word-spacing: 1.5px;
+        }
+        .action .calp2{
+            font-size: 16px;
+            margin-top: 30px;
+        }
+        .action a{
+            color: white;
+            border: 2px solid;
+            border-radius: 4px ;
+            padding:10px 40px 10px 40px;
+            margin-left: 585px; 
+            text-decoration: none;
+        }
+        .bgportfolio{
+            margin-top: 70px;
+        }
+        .porthp{
+            text-align: center;
+        }
+        .porthp h2{
+            color:#124265;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .porthp p{
+            color:#919191;
+            font-size:14px;
+            width: 85%;
+            margin-left: 95px;
+            margin-top: 10px;
+        }
+        .port-ul{
+            text-align: center;
+             word-spacing:25px;
+             margin-right:20px;
+             font-weight: 600;
+             font-size: 16px;
+        }  
+        #blue{
+            color:skyblue;
+        }
+        .portimg{
+            background-color: tan;
+        }
+        #folio1{
+            width: 30%;
+            height: 60vh;
+        }
+        #folio2{
+            width:30%;
+            height:40vh;
+        }
+        #folio3{
+            width: 25%;
+            height:30vh;
+        }
+        #folio4{
+            width: 30%;
+            height: 70vh;
+        }
+
+</style>
+</head>
+  <body>
+      <div>
+          <ul>
+              <li><a class="onepage"href="#">Onepage</a></li>
+              <li><a class="nav"href="#">Home</a></li>
+              <li><a class="nav"href="#">About</a></li>
+              <li><a class="nav"href="#">Service</a></li>
+              <li><a class="nav"href="#">portfolio</a></li>
+              <li><a class="nav"href="#">team</a><li>
+              <li><a class="nav"href="#">pricing</a></li>
+              <li><a class="nav"href="#">dropdown ▼</a></li>
+              <li><a class="nav"href="#">contact</a></li> 
+              <li><a class="nav getstarted"href="#">Get started</a></li>           
+          </ul>
+      </div>
+      <div class="div2">
+          <p class="pre1"><b>One Page Bootstrap<br>Website Template</b></p>
+          <p class="pre2">We are a team of designers talanted</p>
+          <button class="pre3"type="button">Get started</button>
+      </div>
+      <!--box-->
+      <div class="bg">
+          <!--box 1-->
+          <div class="box">
+            <div class="icon"><i class='bx bx-layer' ></i></div>
+            <div class="head"><p>Lorem Ipsum</p></div> 
+            <div class="para"><p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p></div>
+          </div>
+          <!--box 2-->  
+          <div class="box">
+            <div class="icon"><i class='bx bxs-palette' ></i></div>
+            <div class="head"><p>Sed ut perspiciatis</p></div>
+            <div class="para"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p></div>
+          </div> 
+          <!--box 3-->
+          <div class="box">
+              <div class="icon"><i class='bx bx-command' ></i></div>
+              <div class="head"><p>Magni Dolores<p></div>
+              <div class="para"><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p></div>
+          </div>
+          <!--box 4-->
+          <div class="box">
+              <div class="icon"><i class='bx bx-fingerprint' ></i></div>
+              <div class="head"><p>Nemo Enim</p></div>
+              <div class="para"><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p></div>
+          </div>
+      </div>
+      <!--About us-->
+      <div class="aboutbg">
+          <div class="abtpara">
+            <h4>ABOUT US</h4>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+          </div>
+            <div class="abtpara2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.<br>
+
+              <i class='bx bx-check-double'></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat<br>
+            
+             <i class='bx bx-check-double'></i>Duis aute irure dolor in reprehenderit in voluptate velit<br>
+            
+             <i class='bx bx-check-double'></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+
+            <div>
+              <p class="abtpara3">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis<br>aute irure dolor in reprehenderit in voluptate velit esse cillum<br>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>non proident, sunt in culpa qui officia deserunt mollit anim id est<br>laborum.</p>
+              </div>
+             <div><p id="learnmore">Learn more</p></div>    
+        </div>
+        <!--Number and titles-->
+    <div class="bgnumber">
+       <div class="numpara">
+         <h1>65</h1>
+         <p>Happy Clients</p>
+      </div>
+       <div class="numpara">
+         <h1>85</h1>
+         <p>Project</p>
+       </div>
+        <div class="numpara">
+         <h1>12</h1>
+         <p>Year of experience</p>
+      </div>
+      <div class="numpara">
+         <h1>15</h1>
+         <p>Awards</p>
+      </div>
+    </div>
+    <!--video and paragraph portion-->
+    <div class="bgvideo">
+        <div class="video"><iframe width="513" height="380" src="https://www.youtube.com/embed/mbzjK3ykr-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videopara"><p>Voluptatem dignissimos provident quasi<br>corporis voluptates sit assumenda.</p></div>
+        <div class="videopara1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p></div>
+        <div class="videopara2">
+        <p><i class='bx bx-check-double'></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        <p><i class='bx bx-check-double'></i>Duis aute irure dolor in reprehenderit in voluptate velit</p>
+        <p><i class='bx bx-check-double'></i>Duis aute irure dolor in reprehenderit in voluptate velit</p>
+        <p><i class='bx bx-check-double'></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br>reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+        <p class="videopara3">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint<br>occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p></div>  
+    </div>
+    <!--Logo-->
+    <div class="bglogo">
+        <div class="logo">
+            <img src="logo1.png" alt="">
+            <img src="logo2.png" alt="">
+            <img src="logo3.png" alt="">
+            <img src="logo4.png" alt="">
+            <img src="logo5.png" alt="">
+            <img src="logo-6.png" alt="">
+        </div>
+    </div>
+<!--TESTIMONIAL-->
+<div class="bgtesti">
+  <div class="testhp">
+        <h3>TESTIMONIALS</h3>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+  </div>
+    <!--card1-->
+    <div class="card">
+        <p><i class='bx bxs-quote-left' ></i>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.<i class='bx bxs-quote-right' ></i> </p>
+    </div>
+    <!--card2-->
+    <div class="card">
+        <p><i class='bx bxs-quote-left' ></i>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.<i class='bx bxs-quote-right' ></i></p>
+    </div>
+    <!--card3-->
+   <div class="card">
+       <p><i class='bx bxs-quote-left' ></i>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.<i class='bx bxs-quote-right' ></i></p>
+   </div>
+  </div>
+  <!--staff images-->
+  <div class="imagestaff"> 
+      <div class="image1">
+         <img src="korean.jpg" alt="">
+         <img src="mottathalaiyan.jpg" alt=""> 
+         <img src="specs.jpg" alt="">
+      </div>
+       <div class="desgination">  
+         <h5>Sara Willson</h5>
+         <p>Designer</p>
+      </div>
+      <div class="desgination">
+         <h5>Saul Goodman</h5>
+         <p>CEO&Founder</p>
+      </div>
+      <div class="desgination">
+         <h5>Jena Karlis</h5>
+         <p>Store Owner</p>
+      </div>
+      <div id="radio">
+          <input type="radio">
+          <input type="radio">
+      </div>
+ </div>
+ <!--Service cards-->
+ <div class="bgservice">
+     <div class="servhp">
+         <h2>SERVICE</h2>
+         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> 
+     </div>
+     <div class="servcard">
+         <div class="sicon"><i class='bx bxs-basketball bx1'></i></div>
+         <div class="shead"><h3>Lorem Ipsum</h3></div>
+         <div class="spara"><p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p></div>
+     </div>
+     <div class="servcard">
+        <div class="sicon"><i class='bx bx-file bx1 bx2'></i></div>
+        <div class="shead"><h3>Sed Perspiciatis</h3></div>
+        <div class="spara"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p></div>
+     </div>
+     <div class="servcard">
+        <div class="sicon"><i class='bx bx-tachometer bx3'></i></div>
+        <div class="shead"><h3>Magni Dolores</h3></div>
+        <div class="spara"><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p></div>
+     </div>
+     <div class="servcard">
+        <div class="sicon"><i class='bx bx-layer bx4' ></i></div>
+        <div class="shead"><h3>Nemo Enim</h3></div>
+        <div class="spara"><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p></div>
+     </div>
+     <div class="servcard">
+        <div class="sicon"><i class='bx bx-slideshow bx5' ></i></div>
+        <div class="shead"><h3>Dele Cardo</h3></div>
+        <div class="spara"><p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p></div>
+     </div> 
+     <div class="servcard">
+        <div class="sicon"><i class='bx bx-arch bx1 bx6'></i></div>
+        <div class="shead"><h3>Divera Don</h3></div>
+        <div class="spara"><p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p></div>
+     </div>  
+ </div>
+ <!--Call To Action-->
+   <div class="bgaction">
+       <div class="action">
+       <h2>Call To Action</h2>
+         <p class="calp">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         <p class="calp2"><a href="#home">Call To Action</a></p>
+        </div>
+    </div>
+<!--PORTFOLIO-->
+<div class="bgportfolio">
+    <div class="porthp">
+        <h2>PORTFOLIO</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="port-ul">
+        <ul>
+           <li id="blue">ALL</li>
+           <li>APP</li>
+           <li>CARD</li>
+           <li>WEB</li>
+        </ul>
+    </div>
+    <div class="portimg">
+        <img src="portfolio-1.jpg" alt=""id="folio1">
+        <img src="portfolio-2.jpg" alt=""id="folio2">
+        <img src="portfolio-3.jpg" alt=""id="folio3">
+        <img src="portfolio-4.jpg" alt=""id="folio4">
+        <img src="portfolio-5.jpg" alt=""id="folio5">
+        <img src="portfolio-6.jpg" alt=""id="folio6">
+        <img src="portfolio-7.jpg" alt=""id="folio7">
+        <img src="portfolio-8.jpg" alt=""id="folio8">
+        <img src="portfolio-9.jpg" alt=""id="folio9">
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <div style="margin-top: 1000px;"></div>
+  </body>
+</html>
+  
